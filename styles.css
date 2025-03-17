@@ -76,6 +76,7 @@ button{
 
 .mobile_navbar, .mobile_hero_page{
     display: none;
+    /* display: none; */
 }
 
 /* Hero Page Description */
