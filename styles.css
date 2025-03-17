@@ -1,7 +1,7 @@
 /* styles for index.html */
 *{
     text-align: center;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -28,6 +28,7 @@
 }
 
 .navEmpty{
+    display: inline-block;
     width: 10%;
 }
 
@@ -71,6 +72,10 @@ button{
 .dark_button{
     color:#fff;
     background-color: rgb(9,44,66);
+}
+
+.mobile_navbar, .mobile_hero_page{
+    display: none;
 }
 
 /* Hero Page Description */
@@ -181,4 +186,49 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media (max-width:400px){
+    .navbar, .hero_page{
+        display: none;
+
+    } 
+
+    .mobile_navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        margin: 10px;
+    }
+
+    .mobile_hero_page{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(239,243,244);
+
+    }
+
+    .mobile_hero_heading{
+        font-size: 26px;
+        margin: 50px;
+        font-weight: 600;
+    }
+
+    .mobile_hero_buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button{
+        margin: 20px;
+    }
+
+    .mobile_hero_img{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        margin-block: 40px;
+    }
 }
