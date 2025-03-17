@@ -338,6 +338,7 @@ button{
     justify-content: center;
     align-items: center;
     max-width: 100vw;
+    margin-block: 40px;
 }
 
 .founder_page_desc{
@@ -351,7 +352,7 @@ button{
 
 .founder_heading{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 72px;
     text-transform: capitalize;
 }
@@ -528,6 +529,37 @@ button{
 
     .benefit_desc{
         text-align: center;
+    }
+
+    /* <!-- Our Founder section --> */
+
+    .founder_page{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder_page_desc{
+        width: 100%;
+        height: auto;
+    }
+
+    .founder_heading{
+        font-size: 38px;
+    }
+
+    .founder_desc, .founder_name{
+        text-align: center;
+    }
+
+    .founders_pic{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .founders_pic1{
+        width: 400px;
+        height: auto;
     }
 
 }
