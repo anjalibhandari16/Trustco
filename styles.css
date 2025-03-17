@@ -285,7 +285,7 @@ button{
     padding: 32px 24px;
     margin: 20px;
     gap: 24px;
-    width: 262.67px;
+    width: 270px;
     height: auto;
     background: #F2F5F6;
     border-radius: 16px;
@@ -314,12 +314,18 @@ button{
     text-align: left;
 }
 
+.benefit_desc{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+}
+
 #text7{
     display: flex;
     font-size: 46px;
     flex-wrap: wrap;
     font-weight: 600;
-    margin-block: 40px;
+    margin-block: 30px;
     text-align: left;
 }
 
@@ -417,7 +423,34 @@ button{
     }
 
     .video{
-    height: 150px;
-    width: auto;
+        height: 150px;
+        width: auto;
     }
+
+    /* <!-- Benefits section --> */
+
+    .benefits, .benefit_cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefit_headers{
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefit_cards{
+        width: 100%;
+        align-items: center;
+    }
+
+    #text7{
+        font-size: 36px;
+        justify-content: center; 
+    }
+
+    .benefit_desc{
+        text-align: center;
+    }
+
 }
