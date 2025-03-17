@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-.mobile_navbar, .mobile_hero_page, .mobile_brands_sec{
+.mobile_navbar, .mobile_hero_page, .mobile_brands_sec, .mobile_video_sec{
     display: none;
 }
 
@@ -236,12 +236,10 @@ button{
     display: flex;
     padding-bottom: 80px;
     width: 90%;
-
 }
 
 #text3{
     display: flex;
-    width: 50%;
     font-size: 46px;
     flex-wrap: wrap;
     font-weight: 600;
@@ -260,8 +258,8 @@ button{
     justify-content: center;
 }
 
-@media (max-width:400px){
-    .navbar, .hero_page, .brands_sec{
+@media (max-width:450px){
+    .navbar, .hero_page, .brands_sec, .video_sec{
         display: none;
 
     } 
@@ -310,6 +308,7 @@ button{
     .mobile_brands_sec{
         display: block;
         margin-block: 20px;
+        height: auto;
     }
 
     .mobile_brand_sec_imgs{
@@ -324,5 +323,35 @@ button{
         height: 36px;
         max-width: auto;
         margin: 10px;
+    }
+
+    /* <!-- Video Section --> */
+
+    .mobile_video_sec{
+    display: block;
+    height: auto;
+    background-color: rgb(9,44,66);
+    color:#fff;
+    padding: 20px 20px 0px 20px;
+    }
+
+    #text5{
+        text-align: left;
+        font-size: 28px;
+        font-weight: 600;
+        margin-block: 20px;
+    }
+    
+    #text6{
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+        line-height: 1.4em;
+        margin-block: 20px;
+    }
+
+    .video{
+    height: 150px;
+    width: auto;
     }
 }
