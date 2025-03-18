@@ -64,7 +64,7 @@ button{
     font-weight: 590;
     margin-inline: 10px;
     padding-inline: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
     white-space: nowrap;
 }
 
@@ -358,7 +358,7 @@ button{
 }
 
 .founder_desc{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     padding-block: 40px;
     text-align: left;
@@ -402,6 +402,12 @@ button{
     height: auto;
     display: flex;
     flex-grow: 1;
+}
+
+/* <!-- Building Bridges section --> */
+
+#briges_heading{
+    text-transform: none;
 }
 
 @media (max-width:450px){
