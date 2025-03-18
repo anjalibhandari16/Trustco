@@ -628,4 +628,10 @@ button{
         display: flex;
         justify-content: center;
     }
+
+    /* <!-- The Numbers Section --> */
+    .numbers{
+        flex-wrap: wrap;
+        margin-inline: 0;
+    }
 }
