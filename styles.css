@@ -406,6 +406,14 @@ button{
 
 /* <!-- Building Bridges section --> */
 
+.bridges_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    margin-block: 40px;
+}
+
 #briges_heading{
     text-transform: none;
 }
@@ -568,4 +576,25 @@ button{
         height: auto;
     }
 
+    /* <!-- Building Bridges section --> */
+
+    .bridges_page{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #briges_heading{
+        line-height: 42px;
+        text-transform: capitalize;
+    }
+
+    .founder_buttons{
+        align-items: center;
+    }
+
+    .briges_button_grp{
+        display: flex;
+        justify-content: center;
+    }
 }
