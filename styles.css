@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-.mobile_navbar, .mobile_hero_page, .mobile_brands_sec, .mobile_video_sec{
+.mobile_navbar, .mobile_hero_page, .mobile_brands_sec, .mobile_video_sec, .mobile_see_all{
     display: none;
 }
 
@@ -522,7 +522,6 @@ button{
 
 .scroll_bar{
     width: 200px;
-    padding-bottom: 50px;
 }
 
 /* <!-- Create the Blogs section --> */
@@ -532,6 +531,13 @@ button{
     margin-block: 100px;
     padding-inline: 100px;
 
+}
+
+.blog_main_heading{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    text-transform: capitalize;
 }
 
 .blog_cards{
@@ -579,7 +585,7 @@ button{
 }
 
 @media (max-width:450px){
-    .navbar, .hero_page, .brands_sec, .video_sec{
+    .navbar, .hero_page, .brands_sec, .video_sec, .see_all{
         display: none;
 
     } 
@@ -791,4 +797,28 @@ button{
         height: 60%;
     }
 
+    /* <!-- Create the Blogs section --> */
+
+    .blog_section{
+        margin-block: 0px;
+        padding: 0;
+    }
+
+    .blog_main_heading{
+        font-size: 26px ;
+    }
+
+    .blog_cards{
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .mobile_see_all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        font-size: 18px ;
+        padding:20px 0 40px 0;
+    }
 }
