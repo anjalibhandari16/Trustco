@@ -591,7 +591,7 @@ button{
     background-color: #12141D;
     color:#fff;
     display: flex;
-    margin-block: 100px;
+    margin-top: 100px;
     padding: 20px 100px 0px 100px;
     justify-content: space-between;
 }
@@ -602,15 +602,15 @@ button{
 }
 
 .cta_heading{
-font-weight: 700;
-font-size: 60px;
-line-height: 72px;
-text-transform: capitalize;
-height: 60%;
-display: flex;
-align-items: center;
-position: absolute;
-width: 750px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: capitalize;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 750px;
 
 }
 
@@ -877,5 +877,32 @@ width: 750px;
         gap: 18px;
         font-size: 18px ;
         padding:20px 0 40px 0;
+    }
+
+    /* <!-- Design the CTA Banner section --> */
+
+    .cta_banner{
+        flex-direction: column;
+        padding: 10px 16px 0px 16px;
+
+    }
+
+    .cta_heading{
+        width: auto;
+        position: relative;
+        padding-top: 40px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    .book_buttons{
+        position: relative;
+        top:0px
+    }
+    
+    #text10{
+        text-align: center;
+        margin-bottom: 40px;
     }
 }
