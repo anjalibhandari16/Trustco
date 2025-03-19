@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-.mobile_navbar, .mobile_hero_page, .mobile_brands_sec, .mobile_video_sec, .mobile_see_all{
+.mobile_navbar, .mobile_hero_page, .mobile_brands_sec, .mobile_video_sec, .mobile_see_all, .mobile_site_credits{
     display: none;
 }
 
@@ -852,7 +852,7 @@ footer{
 
 
 @media (max-width:450px){
-    .navbar, .hero_page, .brands_sec, .video_sec, .see_all{
+    .navbar, .hero_page, .brands_sec, .video_sec, .see_all, .site_credits{
         display: none;
 
     } 
@@ -1155,5 +1155,22 @@ footer{
         width: 100%;
         padding: 30px;
         text-align: center;
+    }
+
+    .mobile_site_credits{
+        width: 100vw;
+        height: auto;
+        background-color: #F2F5F6;
+        color: #92A7B0;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-block: 20px;
+    }
+
+    .site_credits_options{
+        gap:18px
     }
 }
