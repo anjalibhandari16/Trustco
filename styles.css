@@ -449,6 +449,71 @@ button{
     color:#1E1E1E
 }
 
+/* <!-- The Testimonials Section --> */
+
+.testimonials{
+    background-color: #F2F5F6;
+    height: auto;
+    padding-inline: 100px;
+}
+
+.testimonials_desc{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see_all{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px ;
+}
+
+.review_card{
+    display: flex;
+    overflow-x: auto;
+}
+
+.card_test{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+width: 554px;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+border-radius: 16px;
+margin:30px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+}
+
+.quotation_mark{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.text9{
+font-weight: 400;
+font-size: 24px;
+color: #12141D;
+height: 40%;
+
+}
+
+.card_reviewers_detail{
+    display: flex;
+}
+
 @media (max-width:450px){
     .navbar, .hero_page, .brands_sec, .video_sec{
         display: none;
