@@ -402,7 +402,7 @@ button{
     width: 700px;
     height: auto;
     display: flex;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 /* <!-- Building Bridges section --> */
@@ -582,6 +582,63 @@ button{
     line-height: 1.6;
     text-align: left;
     padding:0px 0px 20px 0;
+}
+
+/* <!-- Design the CTA Banner section --> */
+
+.cta_banner{
+    height: auto;
+    background-color: #12141D;
+    color:#fff;
+    display: flex;
+    margin-block: 100px;
+    padding: 20px 100px 0px 100px;
+    justify-content: space-between;
+}
+
+.cta_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta_heading{
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+text-transform: capitalize;
+height: 60%;
+display: flex;
+align-items: center;
+position: absolute;
+width: 750px;
+
+}
+
+.book_buttons{
+    position: relative;
+    top:300px
+}
+
+.button_cta{
+    background-color: #F0B73F;
+}
+
+#arrow_cta{
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(190,137,41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#text10{
+    opacity: 0.7;
+    padding-left: 24px;
+    font-size: 20px;
 }
 
 @media (max-width:450px){
