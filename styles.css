@@ -769,6 +769,71 @@ button{
     align-items: center;
 }
 
+/* <!-- The Footer section --> */
+
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-block: 100px;
+}
+
+#footer_logo{
+    height: 40px;
+}
+
+.footer_icons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer_icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #D7E0E5;
+    color: #FFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+#footer_text{
+    font-size: 18px;
+    line-height: 28px;
+    color: #404040;
+    width: 30%;
+}
+
+.footer_options{
+    display: flex;
+}
+
+.footer_options{
+    font-size: 18px;
+    line-height: 28px;
+    color: #404040;
+    gap: 100px;
+
+}
+
+.footer_home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_option_heading{
+    font-size: 26px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+
+
 @media (max-width:450px){
     .navbar, .hero_page, .brands_sec, .video_sec, .see_all{
         display: none;
