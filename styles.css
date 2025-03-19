@@ -832,6 +832,23 @@ footer{
     margin-bottom: 10px;
 }
 
+/* <!-- Site credits section --> */
+
+.site_credits{
+    width: 100vw;
+    height: 70px;
+    background-color: #F2F5F6;
+    color: #92A7B0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.site_credits_options{
+    padding-inline: 30px;
+    display: flex;
+    gap:50px
+}
 
 
 @media (max-width:450px){
